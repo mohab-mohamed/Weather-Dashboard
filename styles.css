@@ -1,0 +1,57 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  display: flex; 
+  width: 90vw; 
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+.listContainer {
+  margin-top: 2%;
+  width: 25%;
+}
+
+.currentWeather {
+  margin-top: 2%;
+  height: 50vh;
+  width: 70%
+}
+
+.forecastContainer {
+  margin-top: 5vh;
+  height:30vh;
+  width: 90vw;
+}
+
+#currentJumbo {
+  height: 100%;
+}
+
+#forecastJumbo{
+  height: 100%;
+}
+
+#searchForm {
+  margin-left: 4vw;
+}
+
+.cardContainer {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 100%;
+  width:15%;
+}
