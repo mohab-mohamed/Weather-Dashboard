@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    const temp;
   const APIKEY = "d09c23f63f6ff9ee58c620e0cd55a6b8";
   const $searchInput = $("#searchInput");
   const $searchForm = $("#searchForm");
